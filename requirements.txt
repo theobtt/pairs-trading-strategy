@@ -1,4 +1,4 @@
 pandas
 numpy
-yfinance
+yfinance==0.1.70
 matplotlib
