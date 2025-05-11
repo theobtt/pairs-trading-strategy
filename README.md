@@ -6,14 +6,14 @@ A simple Python-based mean-reversion backtester that uses historical price sprea
 
 ## Overview
 
-This project demonstrates a basic **pairs trading** strategy:
+This project demonstrates a basic **pairs trading** strategy, with the following capabilities:
 
-1. **Fetch** adjusted close prices for two tickers.  
-2. **Estimate** the hedge ratio (β) via linear regression.  
-3. **Compute** the price spread: `spread = price_A − β × price_B`.  
-4. **Calculate** rolling mean and standard deviation of the spread, then derive a z-score.  
-5. **Generate** long/short signals when the z-score crosses ±entry thresholds.  
-6. **Backtest** the strategy, plot the equity curve, and report total return.
+1. Fetch adjusted close prices for two tickers.  
+2. Estimate the hedge ratio (β) via linear regression.  
+3. Compute price spread: `spread = price_A − β × price_B`.  
+4. Calculate rolling mean and standard deviation of the spread, then derive a z-score.  
+5. Generate long/short signals when the z-score crosses ±entry thresholds.  
+6. Backtest the strategy, plot the equity curve, and report total return.
 
 ---
 
